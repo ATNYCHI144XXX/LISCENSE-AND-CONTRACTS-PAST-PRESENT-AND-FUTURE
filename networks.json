@@ -1,0 +1,59 @@
+{
+  "networks": {
+    "ethereum": {
+      "chainId": 1,
+      "name": "Ethereum Mainnet",
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/",
+      "explorer": "https://etherscan.io",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    "sepolia": {
+      "chainId": 11155111,
+      "name": "Sepolia Testnet",
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/",
+      "explorer": "https://sepolia.etherscan.io",
+      "nativeCurrency": {
+        "name": "Sepolia Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    "polygon": {
+      "chainId": 137,
+      "name": "Polygon Mainnet",
+      "rpc": "https://polygon-mainnet.g.alchemy.com/v2/",
+      "explorer": "https://polygonscan.com",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      }
+    },
+    "mumbai": {
+      "chainId": 80001,
+      "name": "Mumbai Testnet",
+      "rpc": "https://polygon-mumbai.g.alchemy.com/v2/",
+      "explorer": "https://mumbai.polygonscan.com",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      }
+    },
+    "base": {
+      "chainId": 8453,
+      "name": "Base Mainnet",
+      "rpc": "https://mainnet.base.org",
+      "explorer": "https://basescan.org",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    }
+  }
+}
